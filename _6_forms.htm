@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!--input text-->
+    <div>
+    <h1>Your liking Anime</h1>
+    <label for="name">Enter Name :</label>
+    <input type="text" name="name" id="name_user">
+</div>
+<div>
+     <!--input radio button-->
+     <label for="Gender">male</label>
+     <input type="radio" name="Gender" id="male">
+     <label for="Gender">female</label>
+     <input type="radio" name="Gender" id="female">
+     <label for="Gender">transgender</label>
+     <input type="radio" name="Gender" id="trangender">
+    </div>
+    <div>
+        <!--chech box form-->
+        <label for="Anime">Select liking anime:</label>
+        <label for="Anime">Naruto</label>
+        <input type="checkbox" name="Anime" id="naruto">
+        <label for="Anime">Onepiece</label>
+        <input type="checkbox" name="Anime" id="Onepiece">
+        <label for="Anime">dragon ball</label>
+        <input type="checkbox" name="Anime" id="dragon ball">
+        <label for="Anime">Bleach</label>
+        <input type="checkbox" name="Anime" id="Bleach">
+    </div>
+    <div>
+        <!--Text area-->
+        <label for="Info">Enter Your ideas</label><br>
+        <textarea name="Info" id="Info" cols="20" rows="5">Enter here....</textarea>
+    </div>
+    <div>
+        <!--Select form-->
+        <label for="Select">Select ur age:</label>
+        <!--use multiple to select more options-->
+        <select name="Select" id="Select" >
+            <option value="">18</option>
+            <option value="" selected>19</option>
+            <option value="">20</option>
+            <option value="">21</option>
+        </select>
+    </div>
+    <div>
+        <!--field set-->
+        <fieldset>
+            <legend>BTS:</legend>
+            <select name="bts" id="bts">
+                <option value="">V</option>
+                <option value="">Jimin</option>
+                <option value="">JK</option>
+                <option value="">Namjoon</option>
+                <option value="">Suga</option>
+                <option value="">Jin</option>
+                <option value="">Jhope</option>
+            </select>
+        </fieldset>
+    </div>
+    <div>
+        <!--data list-->
+        <input list="cities">
+        <datalist id="cities">
+            <option value="Alabasta">Alabasta</option>
+            <option value="Skypiea">Skypiea</option>
+            <option value="Water 7">Water 7</option>
+            <option value="Thriller bark">Thriller bark</option>
+            <option value="Marienford">Marienford</option>
+            <option value="Fishmen island">Fishmen island</option>
+            <option value="Dressrosa">Dressrosa</option>
+        </datalist>
+    </div>
+    <div>
+        <!--submit reset-->
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </div>
+</body>
+</html>
