@@ -1,0 +1,113 @@
+1.<html> is a tag where Everything is included
+2.<body> is a tag where the Everything visible is Coded
+3.**<head> is a tag where the Everything about website and other linkings are here
+    <link> is used to link other pages of css and javascripts , favcions etc..
+4.<title> the tag defines title the page
+5.<h1> to <h6> are headings tags with different sizes
+6.<p> is a tag where paragraphes are written
+7.<hr> is a tag of horizontal line
+8.<br> tag adds a line break
+9.Read html entities
+10.<em> inline element emphasis
+11.<strong> inline element makes text a little bolder
+12.<abbr> used for representing abbrivations
+13.tooltip is used to set a title for a page
+14.<address> tag is used for keeping address in good way
+**15.<!--  -->comments on the html
+**16.Lists
+  <ol> ordered List
+  <ul> unordered List
+  <dl> description List
+  <li> List item
+  <dt> Description term
+  <dd> Description details
+**17.Achor tags<a>
+    
+    <a> is used to make a link by text
+    There are two types of references
+    1.Absolute reference : reference from web or Not from our sources
+    2.Relative reference : reference from our device
+    3.Internal reference : links to different parts of the same web page
+    **Attributes of Achor tag
+    1.** href is attribute used to link the link to the text in between the achor tag
+    2.** target decides where to open the link
+    3.download is used to download the file
+
+    4.emailto: is used to mail **"should be used inside the href it self"
+    5.tel: is used to provide telephone **"should be used inside the href it self"
+18.<section> used to keep code in like together or in like a box
+19.<nav> used show to the Navigation ** Not much to look in into
+**20 image tag <img> Used to place an image in our page
+    **img Attributes
+    **src is attribute used for get source link of the image
+    **alt is attribute is used to represent a text or something that provided by owner if the image is not loaded
+    height,width Attributes are used to set height and width or the image
+    loading attribute decides when to load the image if they are under the fold
+21.<figure> tag is used to place image in it .
+22.<figcaption> tag is used add a cqption to the image.
+23.<code> is inline element used to write code inside of it.
+24.Semantic tags
+    <header>
+    <main>
+    <footer>
+    <section>
+    <article>
+    <aside>
+    <details>
+    <summary>
+    <time>
+    <mark>
+25.**Tables
+   <table> is the tag used to create a table
+   <tr> tag is used a create a row for tye table
+   <td> tag is used to cerate column in the table
+   <th> tag is used a heading int tghe table
+   *Semantic tags
+   <thead> is used arrange the head of the table
+   <tbody> is used arrange the body of the table
+   <tfoot> is used arrange the foot of the table
+   <caption> tag is Used to give caption to the table
+   *Attributes
+   colspan is used to combine the columns
+   rowspan is used to combine the rows in the table
+   scope is referenced to wt way the data is defined
+26.**Forms
+     Forms play a key role in tkainf info from the client side
+     <label> tag is used to create a label for the input of a form elemnet
+     <input> take an input from the user
+     <select> create a Dropdown with option
+     <option> display option to the user
+     <optgroup> groups the options in the dropdown
+     <datalist> is also used to create a dropdown in an efficient way
+     <fieldset>wrap the inside content
+     <legend>labels the set or field set
+     <button>used create a button
+     **Attributes
+     **type attribute decides what is the input
+     1."text" takes text as the input
+     2."password" takes password as a input
+     3."tel" take a phone number as a input
+     4."number" takes Number as input
+        "min" is used step min value for the number
+        "max" is used to set max value of the number input
+        "step" is used to set difference
+        "value" is pridefined value on input box
+        "pattern" is used to a pattern to enter the input
+    5.select, option tags create a Dropdown
+       "multiple" is used is select multiple options
+       "size" display dropdownwith provided size
+       selected keeps on display in the input box
+       value is from server side
+     6."radiobox" is used to select one option from multiple options
+     7."checkbox" is used to select multiple options from option
+     8."textarea" is used type text more like a passage
+     9."submit" is used to submit the form
+     10."reset" is used to set the form 
+       rols,cols set is the text area
+     "for" is used to know the use of label
+     "name" is used get the usage of the input from the client side
+     "id" uk wt is id
+     "placeholder" is used to set something in the input box as an example
+     "autocomplete" is used save the data and recommened them again
+     "required" is used to say to the user that info is definetly needed to enter 
+     "autofocus" is used to autofocus the input box "can be used only once in the page
